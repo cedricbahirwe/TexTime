@@ -1,2 +1,2 @@
 # TextTime
-A demonstration on new SwiftUI features in iOS 15
+A demonstration of new SwiftUI features in iOS 15
