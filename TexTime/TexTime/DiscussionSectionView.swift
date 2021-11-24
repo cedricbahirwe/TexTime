@@ -62,8 +62,8 @@ struct DiscussionSectionView: View {
                         
                         HStack(spacing: 5) {
                             Text("11/6/2021")
-                                .font(.caption.weight(.regular))
-                                .foregroundColor(.white)
+                                .font(.callout.weight(.regular))
+                                .foregroundColor(.secondary)
                             Image(systemName: "info.circle")
                                 .imageScale(.large)
                                 .foregroundColor(.cyan)

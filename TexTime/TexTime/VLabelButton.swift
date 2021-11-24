@@ -25,11 +25,11 @@ struct VLabelButton: View {
             VStack(spacing: 2) {
                 Image(systemName: icon)
                 Text(title)
-                    .font(.caption.weight(.semibold))
+                    .font(.callout.weight(.semibold))
             }
             .foregroundColor(.white)
             .frame(maxWidth: .infinity)
-            .frame(height: 60)
+            .frame(height: 70)
         }
     }
     

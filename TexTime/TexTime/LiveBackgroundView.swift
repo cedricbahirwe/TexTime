@@ -8,9 +8,14 @@
 import SwiftUI
 
 struct LiveBackgroundView: View {
+    @Environment(\.scenePhase) var scenePhase
+
+    var transluscentOverlay: Material {
+        scenePhase == .active ? .ultraThinMaterial : .ultraThickMaterial
+    }
     var body: some View {
         LiveVideoView()
-            .overlay(Material.ultraThinMaterial)
+            .overlay(transluscentOverlay)
             .ignoresSafeArea()
     }
 }
