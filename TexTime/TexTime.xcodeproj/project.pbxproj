@@ -61,10 +61,10 @@
 			children = (
 				82A37078274E257700E0F1E8 /* TexTimeApp.swift */,
 				82A3707A274E257700E0F1E8 /* ContentView.swift */,
-				82A37086274E2FFA00E0F1E8 /* VLabelButton.swift */,
 				82A37088274E303800E0F1E8 /* DiscussionSectionView.swift */,
 				82A3708C274E3A2D00E0F1E8 /* LiveBackgroundView.swift */,
 				82A3708E274E3A3C00E0F1E8 /* LiveVideoView.swift */,
+				82A37086274E2FFA00E0F1E8 /* VLabelButton.swift */,
 				82A3707C274E257B00E0F1E8 /* Assets.xcassets */,
 				82A3707E274E257B00E0F1E8 /* Preview Content */,
 			);
@@ -288,6 +288,7 @@
 				DEVELOPMENT_TEAM = 6V9B6LUW22;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "TexTime requires you camera for a best experience.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -317,6 +318,7 @@
 				DEVELOPMENT_TEAM = 6V9B6LUW22;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "TexTime requires you camera for a best experience.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

@@ -9,14 +9,9 @@ import SwiftUI
 
 struct LiveBackgroundView: View {
     var body: some View {
-        ZStack {
-            LiveVideoView()
-                .overlay(Material.ultraThinMaterial)
-//            Color.clear
-//                .background(Material.ultraThinMaterial)
-        }
-        .ignoresSafeArea()
-        
+        LiveVideoView()
+            .overlay(Material.ultraThinMaterial)
+            .ignoresSafeArea()
     }
 }
 

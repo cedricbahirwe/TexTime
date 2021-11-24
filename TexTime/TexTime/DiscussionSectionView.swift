@@ -17,7 +17,7 @@ struct DiscussionSectionItem: Identifiable {
 
 struct DiscussionSectionView: View {
     let title: String
-    let items = 3
+    var items: Int = (1...5).map{$0}.randomElement()!
 
     var body: some View {
         VStack(alignment: .leading) {
@@ -82,6 +82,7 @@ struct DiscussionSectionView: View {
             .background(.ultraThinMaterial)
             .cornerRadius(10)
         }
+        .padding(.top, 12)
     }
 }
 

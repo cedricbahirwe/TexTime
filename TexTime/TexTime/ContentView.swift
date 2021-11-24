@@ -24,7 +24,6 @@ struct ContentView: View {
                     }
                 }
                 .padding(.horizontal)
-//                .redacted(reason: .placeholder)
                 
                 VStack(alignment: .leading) {
                     DiscussionSectionView(title: "This Month")
@@ -33,11 +32,8 @@ struct ContentView: View {
                 }.padding()
             }
             .background(LiveBackgroundView())
-            .navigationTitle(Text("TextTime"))
+            .navigationTitle("TextTime")
         }
-        .accentColor(.red)
-//        .redacted(reason: .placeholder)
-
     }
 }
 

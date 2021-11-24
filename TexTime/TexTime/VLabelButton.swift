@@ -21,15 +21,16 @@ struct VLabelButton: View {
     }
     
     private var buttonContent: some View {
-        VStack(spacing: 2) {
-            Image(systemName: icon)
-            Text(title)
-                .font(.caption.weight(.semibold))
+        Button(action: action) {
+            VStack(spacing: 2) {
+                Image(systemName: icon)
+                Text(title)
+                    .font(.caption.weight(.semibold))
+            }
+            .foregroundColor(.white)
+            .frame(maxWidth: .infinity)
+            .frame(height: 60)
         }
-        .foregroundColor(.white)
-        .frame(maxWidth: .infinity)
-        .frame(height: 60)
-        
     }
     
     var body: some View {
