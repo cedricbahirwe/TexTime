@@ -63,5 +63,7 @@ struct VLabelButton: View {
 struct VLabelButton_Previews: PreviewProvider {
     static var previews: some View {
         VLabelButton("Title", icon: "link") { }
+        .padding()
+        .previewLayout(.sizeThatFits)
     }
 }

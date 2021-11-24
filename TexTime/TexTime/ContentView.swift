@@ -17,19 +17,19 @@ struct ContentView: View {
                     HStack {
                         VLabelButton("Create Link",
                                      icon: "link") { }
-                                     .withBackground(Material.ultraThinMaterial)
+                                     .withBackground(.ultraThinMaterial)
                         
-                        VLabelButton("New TextTime", icon: "message.fill") { }
-                        .withBackground(.cyan)
+                        VLabelButton("New TextTime",
+                                     icon: "message.fill") { }
+                                     .withBackground(.cyan)
                     }
-                }
-                .padding(.horizontal)
-                
-                VStack(alignment: .leading) {
+                    
                     DiscussionSectionView(title: "This Month")
                     
                     DiscussionSectionView(title: "Last Month")
-                }.padding()
+                }
+                .padding(.horizontal)
+                
             }
             .background(LiveBackgroundView())
             .navigationTitle("TextTime")
